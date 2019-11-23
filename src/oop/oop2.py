@@ -4,11 +4,11 @@
 # object is constructed.
 
 class GroundVehicle():
-    def __init__(self, num_wheels):
+    def __init__(self, num_wheels=4):
         self.num_wheels = num_wheels
 
     def drive(self):
-        return f'vroooom {self.num_wheels}'
+        return f'vroooom'
 
 
 
@@ -24,7 +24,7 @@ class Motorcycle(GroundVehicle):
         super(Motorcycle, self).__init__(num_wheels=2)
 
     def drive(self):
-        return f'BRAAAP!! {self.num_wheels}'
+        return f'BRAAAP!!'
 
 vehicles = [
     GroundVehicle(num_wheels=1),

@@ -20,8 +20,7 @@
 
 #Vehicle
 class Vehicle:
-   def __init__(self, name):
-      self.name = name
+   pass
 
 class FlightVehicle(Vehicle):
    pass
