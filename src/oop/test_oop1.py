@@ -7,7 +7,7 @@ class Oop1Tests(unittest.TestCase):
     self.flight_vehicle = FlightVehicle()
     self.ground_vehicle = GroundVehicle()
     self.car = Car()
-    self.motorcycle = Motorcycle()
+    self.motorcycle = Motorcycle() 
     self.starship = Starship()
     self.airplane = Airplane()
 
